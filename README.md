@@ -253,7 +253,5 @@ Les adresses IP utilisées appartiennent au réseau privé du laboratoire. Aucun
 
 ## Auteure
 
-Projet académique réalisé par **Maryeme Aftyss**
-
 **Maryeme Aftyss**  
 Ingénieure d'État en cybersécurité  

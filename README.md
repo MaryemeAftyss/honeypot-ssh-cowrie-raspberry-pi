@@ -45,7 +45,7 @@ flowchart LR
     F --> G["Bannissement et alerte e-mail"]
 ```
 
-![Architecture matérielle du laboratoire](images/01-architecture-honeypot.png)
+![Architecture matérielle du laboratoire](01-architecture-honeypot.png)
 
 ### Composants
 
@@ -59,7 +59,7 @@ flowchart LR
 | Postfix / Mailutils | Envoi des notifications par e-mail |
 | Kali Linux | Génération des tests Nmap et Hydra |
 
-![Raspberry Pi connecté au réseau](images/02-raspberry-pi-hardware.png)
+![Raspberry Pi connecté au réseau](02-raspberry-pi-hardware.png)
 
 ---
 
@@ -98,7 +98,7 @@ python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade -r requirements.txt
 ```
 
-![Installation de Cowrie](images/03-cowrie-installation.png)
+![Installation de Cowrie](03-cowrie-installation.png)
 
 ---
 
@@ -122,7 +122,7 @@ enabled = true
 listen_port = 2222
 ```
 
-![Configuration du port SSH de Cowrie](images/04-cowrie-port-configuration.png)
+![Configuration du port SSH de Cowrie](04-cowrie-port-configuration.png)
 
 ### Redirection du port SSH
 
@@ -177,7 +177,7 @@ Cowrie enregistre notamment :
 
 Après la connexion au faux service SSH, l'utilisateur obtient un shell UNIX simulé. Les commandes saisies sont enregistrées dans les journaux Cowrie sans être exécutées sur le Raspberry Pi réel.
 
-![Session SSH et événements enregistrés par Cowrie](images/05-cowrie-session-logs.png)
+![Session SSH et événements enregistrés par Cowrie](05-cowrie-session-logs.png)
 
 ---
 
@@ -204,7 +204,7 @@ bantime = 3600
 
 Après trois tentatives échouées, l'adresse IP est bannie pendant une heure et une notification est envoyée.
 
-![Notification de bannissement Fail2ban](images/06-fail2ban-ban-alert.png)
+![Notification de bannissement Fail2ban](06-fail2ban-ban-alert.png)
 
 ---
 
@@ -257,5 +257,3 @@ Projet académique réalisé par **Maryeme Aftyss**
 
 **Maryeme Aftyss**  
 Ingénieure d'État en cybersécurité  
-
-[Consulter mon profil GitHub](https://github.com/MaryemeAftyss)

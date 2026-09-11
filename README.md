@@ -251,9 +251,9 @@ Les adresses IP utilisées appartiennent au réseau privé du laboratoire. Aucun
 
 ---
 
-## Auteures
+## Auteure
 
-Projet académique réalisé par **Maryeme Aftyss** et **Hajar Lmouataz**.
+Projet académique réalisé par **Maryeme Aftyss**
 
 **Maryeme Aftyss**  
 Ingénieure d'État en cybersécurité  
